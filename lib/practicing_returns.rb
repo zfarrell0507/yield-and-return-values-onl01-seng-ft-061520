@@ -1,6 +1,6 @@
 require 'pry'
 
-array = ["Tim", "Tom", "Jim"]
+
 def hello(array)
   i = 0
   collection = []
@@ -10,7 +10,7 @@ def hello(array)
   end
   collection 
   
-  hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
+  
 end
 
-hello(array)
+hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
